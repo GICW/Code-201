@@ -1,0 +1,193 @@
+.
+├── courses
+│   ├── code-102
+│   │   └── seattle-code-102d62
+│   │       ├── README.md
+│   │       ├── class-01
+│   │       │   └── README.md
+│   │       ├── class-02
+│   │       │   ├── Choosing-A-Text-Editor--The-Older-Coder.pdf
+│   │       │   └── README.md
+│   │       ├── class-03
+│   │       │   ├── README.md
+│   │       │   └── demo
+│   │       │       └── README.md
+│   │       ├── class-04
+│   │       │   ├── README.md
+│   │       │   └── demo
+│   │       │       └── about-me
+│   │       │           ├── README.md
+│   │       │           ├── index.html
+│   │       │           ├── rosie.png
+│   │       │           └── website.tldr
+│   │       ├── class-05
+│   │       │   ├── README.md
+│   │       │   └── demo
+│   │       │       └── about-me
+│   │       │           ├── README.md
+│   │       │           ├── help.html
+│   │       │           ├── images
+│   │       │           │   └── rosie.png
+│   │       │           ├── index.html
+│   │       │           ├── stylesheets
+│   │       │           │   └── styles.css
+│   │       │           └── wireframes
+│   │       │               └── website.tldr
+│   │       ├── class-06
+│   │       │   ├── README.md
+│   │       │   └── demo
+│   │       │       └── about-me
+│   │       │           ├── README.md
+│   │       │           ├── help.html
+│   │       │           ├── images
+│   │       │           │   └── rosie.png
+│   │       │           ├── index.html
+│   │       │           ├── js
+│   │       │           │   ├── color.js
+│   │       │           │   └── javascript-demo.js
+│   │       │           ├── stylesheets
+│   │       │           │   └── styles.css
+│   │       │           └── wireframes
+│   │       │               └── website.tldr
+│   │       ├── class-07
+│   │       │   ├── README.md
+│   │       │   └── demo
+│   │       │       └── about-me
+│   │       │           ├── README.md
+│   │       │           ├── help.html
+│   │       │           ├── images
+│   │       │           │   └── rosie.png
+│   │       │           ├── index.html
+│   │       │           ├── js
+│   │       │           │   ├── app.js
+│   │       │           │   ├── booleans-conditionals.js
+│   │       │           │   ├── color.js
+│   │       │           │   └── functions.js
+│   │       │           ├── stylesheets
+│   │       │           │   └── styles.css
+│   │       │           └── wireframes
+│   │       │               └── website.tldr
+│   │       ├── class-08
+│   │       │   ├── README.md
+│   │       │   └── demo
+│   │       │       └── about-me
+│   │       │           ├── README.md
+│   │       │           ├── help.html
+│   │       │           ├── images
+│   │       │           │   └── rosie.png
+│   │       │           ├── index.html
+│   │       │           ├── js
+│   │       │           │   ├── app.js
+│   │       │           │   └── loops.js
+│   │       │           ├── stylesheets
+│   │       │           │   └── styles.css
+│   │       │           └── wireframes
+│   │       │               └── website.tldr
+│   │       ├── class-09
+│   │       │   └── README.md
+│   │       └── class-10
+│   │           └── README.md
+│   └── code-201
+│       ├── about-me
+│       │   └── index.html
+│       └── seattle-code-201d11
+│           ├── README.md
+│           ├── cheat-sheets
+│           │   ├── css2-cheat-sheet.pdf
+│           │   ├── css3-cheat-sheet.pdf
+│           │   ├── git-and-github-basics-guide.md
+│           │   ├── handling-merge-conflicts.md
+│           │   ├── html5-reference-tags.jpg
+│           │   ├── html5-sectioning-flowchart.pdf
+│           │   └── project-setup.md
+│           ├── class-01
+│           │   ├── README.md
+│           │   ├── something-cool.md
+│           │   └── structure.txt
+│           ├── class-02
+│           │   └── README.md
+│           ├── class-03
+│           │   └── README.md
+│           ├── class-04
+│           │   └── README.md
+│           ├── class-05
+│           │   ├── README.md
+│           │   ├── lab-a
+│           │   │   ├── README.md
+│           │   │   └── starter-code
+│           │   │       ├── app.js
+│           │   │       ├── index.html
+│           │   │       └── tests.js
+│           │   ├── lab-b
+│           │   │   └── README.md
+│           │   └── lab-c
+│           │       └── README.md
+│           ├── class-06
+│           │   ├── README.md
+│           │   └── lab
+│           │       └── wireframes
+│           │           ├── home.png
+│           │           ├── sales-list.png
+│           │           └── sales-table.png
+│           ├── class-07
+│           │   └── README.md
+│           ├── class-08
+│           │   ├── README.md
+│           │   ├── lab-a
+│           │   │   ├── README.md
+│           │   │   └── images
+│           │   │       ├── wireframe-annotated.png
+│           │   │       └── wireframe-comp.png
+│           │   └── lab-b
+│           │       └── README.md
+│           ├── class-09
+│           │   └── README.md
+│           ├── class-10
+│           │   ├── README.md
+│           │   ├── lab-a
+│           │   │   └── README.md
+│           │   └── lab-b
+│           │       └── README.md
+│           ├── class-11
+│           │   ├── README.md
+│           │   └── lab
+│           │       └── wireframe.jpg
+│           ├── class-12
+│           │   └── README.md
+│           ├── class-13
+│           │   ├── README.md
+│           │   └── lab
+│           │       └── wireframe.png
+│           ├── class-14
+│           │   └── README.md
+│           ├── class-15
+│           │   ├── README.md
+│           │   ├── lab-a
+│           │   │   └── README.md
+│           │   ├── lab-b
+│           │   │   └── README.md
+│           │   ├── post-201-study-guide.md
+│           │   └── project-guidelines.md
+│           ├── class-16
+│           │   └── README.md
+│           ├── class-17
+│           │   └── README.md
+│           ├── class-18
+│           │   └── README.md
+│           ├── class-19
+│           │   ├── README.md
+│           │   └── presentation-prep.pdf
+│           ├── class-20
+│           │   ├── README.md
+│           │   └── individual_submission.md
+│           ├── configs
+│           └── resources.md
+├── reading-notes
+│   ├── README.md
+│   ├── code-102
+│   │   ├── class-02.md
+│   │   └── class-03.md
+│   └── code-201
+└── tree.txt
+
+83 directories, 108 files
