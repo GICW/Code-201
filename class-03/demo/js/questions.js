@@ -14,12 +14,18 @@ function guessHowManyPets_Forever() {
 
 function guessHowManyPets(maxGuesses) {
 
-  let gotItCorrect = false; // this is a "flag"
+  // creates a flag so that we can conditionally output a final answer after the loop
+  let gotItCorrect = false;
   let numberOfGuesses = 0;
 
+  // A good comment explains why a for loop instead of a while loop?
+  // TODO: change this to a while loop
+  // FIXME: we have an off by 1 error
   for( let i = 1; i<= maxGuesses; i++ ) {
     let guess = prompt("How many pets do I have?");
     guess = Number(guess);
+
+    // Use this section to break out and update the flags before the loop ends on a correct guess
     if( guess === 3 ) {
       gotItCorrect = true;
       numberOfGuesses = i;
