@@ -1,3 +1,55 @@
 body {
   background-color: #ddd;
 }
+
+header {
+
+  background: #111;
+  color: #eee;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+
+  h1 {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+  }
+
+  nav {
+
+    background-color: #ccc;
+
+    ul {
+      list-style-type: none;
+
+      li {
+        display: inline-block;
+        padding: .25em 1em;
+
+        &:hover {
+          background-color: #444;
+
+          a {
+            color: #eee;
+          }
+        }
+
+        a {
+          color: #444;
+          text-decoration: none;
+        }
+
+      }
+    }
+  }
+}
+
+main {
+  margin: 9em 2em 2em 2em;
+  p {
+    margin-bottom: 1em;
+  }
+}
