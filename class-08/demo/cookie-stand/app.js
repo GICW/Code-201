@@ -114,12 +114,42 @@ function createTableFooter() {
   totalLabel.textContent = "Totals by the hour";
   row.appendChild(totalLabel)
 
-  // Add all the houly totals to the footer
-  for(let i=0; i<totalsPerHour.length; i++) {
+  // // Add all the houly totals to the footer
+  // for(let i=0; i<totalsPerHour.length; i++) {
+  //   let td = document.createElement("td");
+  //   td.textContent = totalsPerHour[i];
+  //   row.appendChild(td);
+  // }
+
+  // loop over each hour in the hours array, and then loop over each store's hours total array and add it all up
+
+  // This will store the array of all the totals for each hour from all the stores
+  let totals = [];
+
+  // Loop over each hour
+  // hours[i] would be "7am"
+  for(let i=0; i<hours.length; i++) {
+    let hourTotal = 0;
+
+    // Loop over the stores list
+    // Each store will be seen here as allStores[j]
+    for(let j=0; j<allStores.length; j++) {
+      // Iteration 1: i = 0 and j is 0 ---- 7am and Seattle object's hourlySales array at index 0 which is ##
+      // Iteration 2: i = 0 and j is 1 ---- 7am and Jordan object's hourlySales array at index 0 which is ##
+
+      // Iteration 2: i = 1 and j is 0 ---- 8am and Seattle object's hourlySales array at index 1 which is ##
+      // Iteration 2: i = 1 and j is 1 ---- 8am and Jordan object's hourlySales array at index 1 which is ##
+      hourTotal += allStores[j].hourlySales[i];
+    }
+    totals.push(hourTotal);
+  }
+
+  for(let i=0; i<totals.length; i++) {
     let td = document.createElement("td");
-    td.textContent = totalsPerHour[i];
+    td.textContent = totals[i];
     row.appendChild(td);
   }
+
 
   // Add the main total to the table
   let mainTotal = document.createElement("td");
