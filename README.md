@@ -8,8 +8,6 @@
 
 - Code 102
 
-> Students with previous relevant or equivalent experience can test out of this requirement in their application.
-
 ## Course Description
 
 This course guides students toward developing a well-rounded foundation of skills necessary for modern web development. These skills include HTML, CSS, and JavaScript coding; utilizing Git workflow processes, project organization, designing with wire-framing and employing introductory Agile development methods.
