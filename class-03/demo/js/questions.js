@@ -53,6 +53,6 @@ function askQuestionWithTries( maxGuesses, question, correctAnswer ) {
 
 }
 
-askQuestionUnlimitedTries("What is my favorite pet's name?", "Rocky");
+askQuestionUnlimitedTries("What is my favorite pet's name?", "bear");
 askQuestionWithTries(5, "How many pets do I have?", 3);
-askQuestionWithTries(10, "What is my wife's name?", "cathy");
+askQuestionWithTries(10, "What is my friend's name?", "sally");
