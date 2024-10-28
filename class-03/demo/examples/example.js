@@ -14,14 +14,14 @@ console.log('==========================')
 
 // Create a list of pets as a javascript array
 // Declare a variable called pets and assign it an array of pet names
-let pets = ["Rocky", "Rosie", "Geno"];
+let pets = ["Rocky", "Rosie", "bear"];
 
 // Iterate the list of pets and print each pet name
 for (let i = 0; i < pets.length; i++) {
   console.log(i, pets[i]);
 }
 
-let searchString = "Geno"
+let searchString = "bear"
 
 // Is what we're searching for in the list of pets?
 console.log(searchString, pets.includes(searchString));
